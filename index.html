@@ -4,9 +4,480 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Goodwood</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
+
+    <!--Header-->
+    <header>
+ <!--Etiqueta bootstrap nav-bar-->
+          <nav class="navbar navbar-expand-lg navbar-light bg-color-nav">
+            <div class="container-fluid">
+                 <div class="container">
+                    <a class="index.html" href="Logo">
+                      <img src="multimedia/LOGObco 1.png" alt="logo-goodwood">
+                    </a>
+                  </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sobre-nosotros">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link font-color-nav" href="#productos">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#preguntas-frecuentes">Preguntas frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        
+    <!--Aqui-va-una-imagen-de-fondo-con-texto-->
+    <div class="imagen-encabezado">
+        <img src="multimedia/Encabezado.jpg" alt="Encabezado" width="100%">
+    </div>
+
+</header>
+<!--Fin-header-->
+
+    <main class="container">
+
+    <!--Icono-de-whatsapp-que-se-desplaza-->
+    <div class="sticky-top">
+    <a href="https://web.whatsapp.com/" target="_blank"><img src="multimedia/WP Call to action.png" alt="whatsapp-call-to-action"></a>
+    </div>
+
+    <!--Hero-->
+    <section class="row d-flex justify-content-center">
+        <div class="col">
+        <video src="multimedia/video-hero.mp4" controls>video</video>
+        <h1 class="titulo">
+        Juguetes de madera
+        </h1>
+        <h2 class="titulo">
+        Hechos a mano 100%
+        </h2>
+        </div>
+    </section>
+    <!--Fin-hero-->
+
+    <!--Informacion-->
+    <section class="row d-flex justify-space-evenly p-5 m-3">
+    <div class="col-lg-4 col-sm-12">
+    <img src="multimedia/Group.jpg" alt="Elaboración a pedido">
+    <p class="fw-bold">
+    Elaboración a pedido
+    </p>
+    <p>
+        Producción en 10 días
+    </p>
+    </div>
+    <div class="col-lg-4 col-sm-12">
+    <img src="multimedia/Group 3.jpg" alt="Consultas">
+    <p class="fw-bold">
+    ¿Consultas?
+    </p>
+    <p>
+        Comunicate con nosotros
+    </p>
+    </div>
+    <div class="col-lg-4 col-sm-12">
+    <img src="multimedia/Icons.jpg" alt="Envios">
+    <p class="fw-bold">
+    Envíos
+    </p>
+    <p>
+        A todo el país
+    </p>
+    </div>
+    </section>
+    <!--Fin-informacion-->
+
+    <!--Sobre-nosotros-->
+    <section id="sobre-nosotros" class="bg-color-nav">
+        <!--Row-->
+        <div class="row d-flex align-items-center">
+        <h2 class="fw-bold col text-center">
+        Sobre Nosotros
+        </h2>
+        
+        <div class="col text-end p-5">
+        <p class="sobre-nosotros-parrafo">
+        Goodwood, surge a partir de la reutilización y resignificación
+        </p>
+        <p class="sobre-nosotros-parrafo">
+        de materiales de descarte, principalmente la madera.
+        </p>
+        <p>
+        Creamos juguetes de madera para niños de entre 2 y 10
+        </p>
+        <p class="sobre-nosotros-parrafo">
+        </p>
+        <p class="sobre-nosotros-parrafo">
+        años, a través de la utilización de materiales nobles y formas
+        </p>
+        <p class="sobre-nosotros-parrafo">
+        puras para estimular los sentidos, la creatividad y la imaginación.
+        </p>
+        </div>
+        </div>
+
+    </section>
+    <!--Fin-sobre-nosotros-->
+
+    <!--Productos-->
+    <!--Grid-system-->
+
+    <section id="productos" class="m-5">
+        <h2 class="fw-bold p-5">
+        Productos
+        </h2>
+        <!--row-->
+        <div class="row">
+        <!--col-->
+        <div class="col-lg-6 col-sm-12">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="multimedia/lapices2.jpeg" class="d-block w-100" alt="Camion con lapices">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="multimedia/lapices3.jpeg" class="d-block w-100" alt="camion con lapices2">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        <ul class="p-3">
+            <li class="fw-bold">
+                Camión con acoplado + pista
+            </li>
+            <li>
+                12 lápices + pista para colorear de 90x100 cm.
+            </li>
+            <li>
+                Hecho con madera y rulemanes
+            </li>
+            <li>
+                100% handmade
+            </li>
+            <li>
+                Medidas: 24 x 4 cm.
+            </li>
+        </ul>
+        </div>
+
+        <!--col-->
+        <div class="col-lg-6 col-sm-12">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="multimedia/camion.jpeg" class="d-block w-100" alt="camion">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="multimedia/ccamion-acoplado.jpg" class="d-block w-100" alt="camion">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        <ul class="p-3">
+            <li class="fw-bold">
+                Camión con acoplado
+            </li>
+            <li>
+                Hecho con madera y rulemanes
+            </li>
+            <li>
+                100% handmade
+            </li>
+            <li>
+                Medidas: 30 x 5 cm.
+            </li>
+        </ul>
+        </div>
+        </div>
+
+        <!--row-->
+        <div class="row">
+        <!--col-->
+        <div class="col-lg-6 col-sm-12">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="multimedia/autito2.jpeg" class="d-block w-100" alt="Autito">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="multimedia/autito3.jpeg" class="d-block w-100" alt="Autito">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+    
+        <ul class="p-3">
+            <li class="fw-bold"> 
+                Autito con casa rodante
+            </li>
+            <li>
+                Hecho con madera y rulemanes
+            </li>
+            <li>
+                100% handmade
+            </li>
+            <li>
+                Medidas: 8 x 4,5 cm. / con casa rodante: 14 x 4,5 cm.
+            </li>
+        </ul>
+        </div>
+        <!--col-->
+        <div class="col-lg-6 col-sm-12">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="multimedia/avion2.jpg" class="d-block w-100" alt="avion">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="multimedia/avion.jpeg" class="d-block w-100" alt="avion2">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+        <ul class="p-3">
+            <li class="fw-bold">
+                Avion
+            </li>
+            <li>
+                Hecho con madera y rulemanes
+            </li>
+            <li>
+                100% handmade
+            </li>
+            <li>
+                Medidas: 25 x 20 cm.
+            </li>
+        </ul>
+        </div>
+    </div>
+
+    </section>
+    <!--Fin-productos-->
+
+    <!--Preguntas-frecuentes-->
+
+    <section class="bg-color-nav d-flex align-items-center">
+    <h2 class="text-center">
+    Preguntas frecuentes
+    </h2>
+
+    <!--row-->
+    <div class="row p-5">
+        <div class="col">
+        <p class="fw-bold">
+        ¿Para que edad se recomienda Goodwood?
+        </p>
+        <p>
+        Nuestros juguetes están diseñados para niños de entre 2 y 10 años.
+        </p>
+        <p class="fw-bold">
+        ¿Cuál es el costo de envío?
+        </p>
+        <p>
+        El costo de envío varía según el total de la compra y tu ubicación.
+        </p>
+        <p class="fw-bold">
+        ¿Dónde puedo recibir mi pedido?
+        </p>
+        <p>
+        Realizamos envíos a todo el país
+        </p>
+    </div>
+
+    <div class="col">
+        <p class="fw-bold">
+        ¿Cuánto tarda en llegar el pedido?
+        </p>
+        <p>
+        El tiempo de entrega dependerá del tipo de envío seleccionado.
+        </p> 
+        <p class="fw-bold">
+        ¿Cuál es el plazo para realizar un cambio?
+        </p>
+        <p>
+        Puedes solicitar un cambio hasta 15 días luego de realizada la compra.
+        </p>
+        <p class="fw-bold">
+        ¿Qué debo hacer si el producto no llega en buen estado?
+        </p>
+        <p>
+        Ponete en contacto con nosotros a disenogoodwood@gmail.com
+        </p>
+    </div>
+</div>
+    </section>
+    <!--Fin-preguntas-frecuentes-->
+
+    <!--Informacion-->
+
+    <!--Grid system-->
+    <section class="row p-5 d-flex align-items-center m-3">
+        <div class="col-lg-4 col-sm-12">
+    <img src="multimedia/Group.jpg" alt="Elaboración a pedido">
+    <p class="fw-bold">
+    Elaboración a pedido
+    </p>
+    <p>
+        Producción en 10 días
+    </p>
+    </div>
+    <div class="col-lg-4 col-sm-12">
+    <img src="multimedia/Group 3.jpg" alt="Consultas">
+    <p class="fw-bold">
+    ¿Consultas?
+    </p>
+    <p>
+        Comunicate con nosotros
+    </p>
+    </div>
+    <div class="col-lg-4 col-sm-12">
+    <img src="multimedia/Icons.jpg" alt="Envios">
+    <p class="fw-bold">
+    Envíos
+    </p>
+    <p>
+        A todo el país
+    </p>
+    </div>
+    </section>
+    <!--Fin-informacion-->
+
+        <!--Contacto-->
+
+        <!--Grid system-->
+        <section id="contacto" class="row d-flex justify-content-center m-5">
+        <div class="col text-end">
+        <p class="fw-bold"> 
+        Juguetes responsables con el medio
+        ambiente,
+        </p>
+        <p class="fw-bold">
+        de formas reconocibles, fáciles de manipular y trasladar.
+        </p>
+        </div>
+        <!--Acá-va-un-botón-->
+        <div class="col">
+        <a class="btn btn-primary" href="pages/contacto.html" role="button">¡Contactanos!</a>
+        </div>
+        </section>
+
+    </section>
+        <!--Fin-contacto-->
+        
+         <!--Acá-va-un-botón-->
+         <div class="boton-volver-inicio">
+         <a href="index.html"><img src="multimedia/Group (1).jpg" alt="boton-volver-inicio"></a>
+        </div>
+
+    </main>
+
+    <!--Footer-->
+    <footer class="row navbar navbar-expand-lg navbar-light bg-color-nav">
+        <div class="col">
+        <img src="multimedia/LOGObco 1.png" alt="logo-goodwood">
+        </div>
+
+        <div class="col">
+        <p class="fw-bold">
+        Contactanos
+        </p>
+        </div>
+
+        <div class="col">
+        <p>
+        +549 2215343580
+        </p>
+        <p>
+        disenogoodwood@gmail.com
+        </p>
+        <p class="fw-bold">
+        Showroom
+        </p>
+        <p>
+        Calle 23 nro 1574 1/2 Taller Dinamita
+        </p>
+        <p>
+        La Plata, Bs.As. Arg.
+        </p>
+        </div>
+
+        <div class="col">
+        <p class="fw-bold">
+        Redes sociales
+        </p>
+        </div>
+
+        <div class="col">
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/good_wood_di/?hl=es-la" target="_blank"><img src="multimedia/typcn_social-instagram-circular.png" alt="Instagram"></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/goodwood.di/" target="_blank"><img src="multimedia/Group.png" alt="facebook"></a>
+            </li>
+        </ul>
+        </div>
+
+    </footer>
+         <!--Fin-footer-->
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
     
 </body>
 </html>

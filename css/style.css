@@ -1,0 +1,22 @@
+
+
+.bg-color-nav{
+    background-color: #80CBC4;
+    color: white;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+header nav ul li a{
+    color:white;
+}
+
+body{
+    color: rgb(28, 49, 58);
+}
+
+.titulo{
+    color: white;
+}
