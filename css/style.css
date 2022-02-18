@@ -15,8 +15,30 @@ header nav ul li a{
 
 body{
     color: rgb(28, 49, 58);
+    line-height: 20px;
+}
+
+.informacion{
+    line-height: 5px;
 }
 
 .titulo{
     color: white;
+}
+
+.titulo:hover::after{
+    content: ♡;
+}
+
+.whatsapp:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+footer{
+    font-size: 15px;
 }
