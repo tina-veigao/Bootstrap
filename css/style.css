@@ -24,15 +24,14 @@ body{
 
 .titulo{
     color: white;
-}
-
-.titulo:hover::after{
-    content: ♡;
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 20%;
 }
 
 .whatsapp:hover{
-    transform: scale(1.2);
-    transition-duration: 1s;
+    transform: translate(10px)
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -41,4 +40,42 @@ body{
 
 footer{
     font-size: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    footer{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .titulo{
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .back-top{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contacto-texto{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .whatsapp{
+        visibility: hidden !important;
+    }
+}
+
+@media only screen and (orientation:landscape) {
+    .containter{
+        display: flex;
+        flex-direction: row;
+    }
 }
