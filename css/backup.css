@@ -1,0 +1,71 @@
+
+
+.bg-color-nav{
+    background-color: #80CBC4;
+    color: white;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+header nav ul li a{
+    color:white;
+}
+
+body{
+    color: rgb(28, 49, 58);
+    line-height: 20px;
+}
+
+.informacion{
+    line-height: 5px;
+}
+
+.titulo{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+
+.whatsapp:hover{
+    transform: translate(10px)
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+footer{
+    font-size: 15px;
+}
+
+@media only screen and (orientation:landscape) {
+    .containter{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .boton-contacto{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .preguntas-frecuentes{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .sobre-nosotros{
+        display: flex;
+        justify-content: center;
+    }
+}

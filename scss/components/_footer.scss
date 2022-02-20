@@ -1,0 +1,21 @@
+
+/*Nesting o anidamiento*/
+footer{ 
+   background-color: $bg-color-general;
+    color: $color-font-general;
+    font-size: 15px;
+     div{
+         ul{ list-style-type: none;
+             li{
+
+             }
+         }
+
+    }
+}
+
+
+/*Importo*/
+
+@import "../base/variables";
+@import "../base/listas";

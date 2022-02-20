@@ -1,0 +1,21 @@
+/*Nesting o anidamiento*/
+/*& pseudoclases o pseudoelementos*/
+header{ 
+   background-color: $bg-color-general;
+    color: $color-font-general;  
+    nav{
+        div{
+            a{
+                &:hover{
+                    text-decoration: underline;
+
+                }
+            }
+        }
+    }
+}
+
+/*Importo*/
+
+@import "../base/variables";
+@import "../base/listas";
