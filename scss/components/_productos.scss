@@ -1,0 +1,20 @@
+@import "../base/variables";
+
+section .productos{
+    h2{
+        color: $color-font-general;
+    }
+    div{
+        img{
+
+        }
+        ul{
+            li{
+                list-style-type: none;
+                color: $color-font-secundario;
+                line-height: $interlineado-body;
+            }
+
+        }
+    }
+}

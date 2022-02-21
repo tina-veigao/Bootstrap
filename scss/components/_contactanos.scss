@@ -1,0 +1,19 @@
+@import "../base/variables";
+
+section {
+    .contacto{
+    div{
+        p{
+           line-height: $interlineado-body;
+           color: $color-font-secundario;
+        }
+    }
+}
+}
+
+@media only screen and (max-width: 480px) {
+    .boton-contacto{
+        display: flex;
+        justify-content: center;
+    }
+}

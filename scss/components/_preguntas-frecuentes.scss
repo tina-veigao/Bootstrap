@@ -1,0 +1,27 @@
+@import "../base/variables";
+
+section .preguntas-frecuentes{
+    background-color: $bg-color-general;
+    h2{
+        .titulo{
+            color: white;
+            display: flex;
+            position: absolute;
+            top: 70%;
+            left: 20%;
+        }
+    }
+    div{
+        p{
+            color: $color-font-general;
+            line-height: $interlineado-body;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .preguntas-frecuentes{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,29 @@
+@import "../base/variables";
+
+.sobre-nosotros{
+    background-color: $bg-color-general;
+    color: $color-font-general;
+    div{
+        h2{
+            .titulo{
+                color: white;
+                display: flex;
+                position: absolute;
+                top: 70%;
+                left: 20%;
+            }
+        }
+    }
+    div{
+        p{
+            line-height: $interlineado-body;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .sobre-nosotros{
+        display: flex;
+        justify-content: center;
+    }
+}

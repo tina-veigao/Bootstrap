@@ -1,0 +1,10 @@
+@import "../base/variables";
+
+section .informacion{
+    div{
+        p{
+            color: $color-font-secundario;
+            line-height: $interlineado-info;
+        }
+    }
+}

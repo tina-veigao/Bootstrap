@@ -1,7 +1,17 @@
-
-
 /*Importar archivos parciales*/
+@import "./base/variables";
 @import "./components/header";
 @import "./components/footer";
-@import "./base/variables";
-@import "./base/maps"
+@import "./base/maps";
+@import "./components/contactanos";
+@import "./components/informacion";
+@import "./components/preguntas-frecuentes";
+@import "./components/productos";
+@import "./components/sobre-nosotros";
+
+@media only screen and (orientation:landscape) {
+    .containter{
+        display: flex;
+        flex-direction: row;
+    }
+}

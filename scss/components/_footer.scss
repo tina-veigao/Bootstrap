@@ -1,9 +1,16 @@
 
+@import "../base/variables";
+
 /*Nesting o anidamiento*/
-footer{ 
-   background-color: $bg-color-general;
+footer{
+    background-color: $bg-color-general;
     color: $color-font-general;
-    font-size: 15px;
+    font-size: $font-size-footer; 
+    div{
+        p{
+            line-height: $interlineado-body;
+        }
+    }
      div{
          ul{ list-style-type: none;
              li{
@@ -16,6 +23,3 @@ footer{
 
 
 /*Importo*/
-
-@import "../base/variables";
-@import "../base/listas";

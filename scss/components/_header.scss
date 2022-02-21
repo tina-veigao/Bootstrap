@@ -1,8 +1,11 @@
+@import "../base/variables";
+
 /*Nesting o anidamiento*/
 /*& pseudoclases o pseudoelementos*/
 header{ 
    background-color: $bg-color-general;
     color: $color-font-general;  
+    line-height: $interlineado-body;
     nav{
         div{
             a{
@@ -16,6 +19,3 @@ header{
 }
 
 /*Importo*/
-
-@import "../base/variables";
-@import "../base/listas";
