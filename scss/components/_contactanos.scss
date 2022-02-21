@@ -1,14 +1,12 @@
 @import "../base/variables";
 
-section {
-    .contacto{
+.contacto{
     div{
         p{
-           line-height: $interlineado-body;
+           line-height: $interlineado-info;
            color: $color-font-secundario;
         }
     }
-}
 }
 
 @media only screen and (max-width: 480px) {

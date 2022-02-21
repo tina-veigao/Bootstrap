@@ -1,0 +1,18 @@
+@import "../base/variables";
+
+.hero{
+    h1{
+        color: $color-font-general;
+        display: flex;
+        position: absolute;
+        top: 70%;
+        left: 20%;
+    }
+    h2{
+        color: $color-font-general;
+        display: flex;
+        position: absolute;
+        top: 70%;
+        left: 20%;
+    }
+}

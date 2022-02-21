@@ -8,9 +8,10 @@
 @import "./components/preguntas-frecuentes";
 @import "./components/productos";
 @import "./components/sobre-nosotros";
+@import "./components/hero";
 
 @media only screen and (orientation:landscape) {
-    .containter{
+    .body{
         display: flex;
         flex-direction: row;
     }

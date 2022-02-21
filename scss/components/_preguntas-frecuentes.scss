@@ -1,15 +1,9 @@
 @import "../base/variables";
 
-section .preguntas-frecuentes{
+.preguntas-frecuentes{
     background-color: $bg-color-general;
     h2{
-        .titulo{
-            color: white;
-            display: flex;
-            position: absolute;
-            top: 70%;
-            left: 20%;
-        }
+        color: $color-font-general;
     }
     div{
         p{

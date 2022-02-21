@@ -26,10 +26,9 @@ footer div p {
 footer div ul {
   list-style-type: none;
 }
-/*Importo*/
 /*$ Variables*/
-section .contacto div p {
-  line-height: 20px;
+.contacto div p {
+  line-height: 5px;
   color: #1c313a;
 }
 
@@ -40,23 +39,19 @@ section .contacto div p {
   }
 }
 /*$ Variables*/
-section .informacion div p {
+.informacion div p {
   color: #1c313a;
   line-height: 5px;
 }
 
 /*$ Variables*/
-section .preguntas-frecuentes {
+.preguntas-frecuentes {
   background-color: #80CBC4;
 }
-section .preguntas-frecuentes h2 .titulo {
+.preguntas-frecuentes h2 {
   color: white;
-  display: flex;
-  position: absolute;
-  top: 70%;
-  left: 20%;
 }
-section .preguntas-frecuentes div p {
+.preguntas-frecuentes div p {
   color: white;
   line-height: 20px;
 }
@@ -68,11 +63,13 @@ section .preguntas-frecuentes div p {
   }
 }
 /*$ Variables*/
-section .productos h2 {
+.productos h2 {
   color: white;
 }
-section .productos div ul li {
+.productos div ul {
   list-style-type: none;
+}
+.productos div ul li {
   color: #1c313a;
   line-height: 20px;
 }
@@ -99,8 +96,24 @@ section .productos div ul li {
     justify-content: center;
   }
 }
+/*$ Variables*/
+.hero h1 {
+  color: white;
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+}
+.hero h2 {
+  color: white;
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+}
+
 @media only screen and (orientation: landscape) {
-  .containter {
+  .body {
     display: flex;
     flex-direction: row;
   }

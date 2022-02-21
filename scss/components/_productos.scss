@@ -1,16 +1,13 @@
 @import "../base/variables";
 
-section .productos{
+.productos{
     h2{
         color: $color-font-general;
     }
     div{
-        img{
-
-        }
         ul{
+            list-style-type: none;
             li{
-                list-style-type: none;
                 color: $color-font-secundario;
                 line-height: $interlineado-body;
             }
