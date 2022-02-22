@@ -1,131 +1,22 @@
-/*Importar archivos parciales*/
-/*$ Variables*/
-/*$ Variables*/
-/*Nesting o anidamiento*/
-/*& pseudoclases o pseudoelementos*/
-header {
-  background-color: #80CBC4;
-  color: white;
-  line-height: 20px;
-}
-header .nav .menu .links {
-  color: white;
-}
-header .nav .menu .links:hover {
-  text-decoration: underline;
-}
+/* Error: From line 3, column 1 of scss\base\_extends.scss: 
+ *   ╷
+ * 3 │ %centrar{
+ *   │ ^^^^^^^^
+ *   ╵
+ * You may not @extend selectors across media queries.
+ *    ,
+ * 15 |     @extend %centrar;
+ *    |     ^^^^^^^^^^^^^^^^
+ *    '
+ *   scss\components\_contactanos.scss 15:5  root stylesheet */
 
-/*Importo*/
-/*$ Variables*/
-/*Nesting o anidamiento*/
-footer {
-  background-color: #80CBC4;
-  color: white;
-  font-size: 15px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: From line 3, column 1 of scss\\base\\_extends.scss: \a   \2577 \a 3 \2502  %centrar{\d\a   \2502  ^^^^^^^^\a   \2575 \aYou may not @extend selectors across media queries.\a    \2577 \a 15 \2502      @extend %centrar;\d\a    \2502      ^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\components\\_contactanos.scss 15:5  root stylesheet";
 }
-footer div p {
-  line-height: 20px;
-}
-footer div ul {
-  list-style-type: none;
-}
-@media only screen and (max-width: 480px) {
-  .imagen-logo {
-    display: flex;
-    justify-content: center;
-  }
-}
-/*$ Variables*/
-.contacto div p {
-  line-height: 5px;
-  color: #1c313a;
-}
-
-@media only screen and (max-width: 480px) {
-  .boton-contacto {
-    display: flex;
-    justify-content: center;
-  }
-}
-/*$ Variables*/
-.informacion div p {
-  color: #1c313a;
-  line-height: 5px;
-}
-
-/*$ Variables*/
-.preguntas-frecuentes {
-  background-color: #80CBC4;
-}
-.preguntas-frecuentes h2 {
-  color: white;
-}
-.preguntas-frecuentes div p {
-  color: white;
-  line-height: 20px;
-}
-
-@media only screen and (max-width: 480px) {
-  .preguntas-frecuentes {
-    display: flex;
-    justify-content: center;
-  }
-}
-/*$ Variables*/
-.productos h2 {
-  color: white;
-}
-.productos div ul {
-  list-style-type: none;
-}
-.productos div ul li {
-  color: #1c313a;
-  line-height: 20px;
-}
-
-/*$ Variables*/
-.sobre-nosotros {
-  background-color: #80CBC4;
-  color: white;
-}
-.sobre-nosotros div h2 .titulo {
-  color: white;
-  display: flex;
-  position: absolute;
-  top: 70%;
-  left: 20%;
-}
-.sobre-nosotros div p {
-  line-height: 20px;
-}
-
-@media only screen and (max-width: 480px) {
-  .sobre-nosotros {
-    display: flex;
-    justify-content: center;
-  }
-}
-/*$ Variables*/
-.hero h1 {
-  color: white;
-  display: flex;
-  position: absolute;
-  top: 70%;
-  left: 20%;
-}
-.hero h2 {
-  color: white;
-  display: flex;
-  position: absolute;
-  top: 70%;
-  left: 20%;
-}
-
-@media only screen and (orientation: landscape) {
-  .body {
-    display: flex;
-    flex-direction: row;
-  }
-}
-
-/*# sourceMappingURL=style.css.map */

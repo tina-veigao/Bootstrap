@@ -1,9 +1,10 @@
 
 @import "../base/variables";
+@import "../base/mixins";
 
 /*Nesting o anidamiento*/
 footer{
-    background-color: $bg-color-general;
+    @include colores(#80CBC4);
     color: $color-font-general;
     font-size: $font-size-footer; 
     div{

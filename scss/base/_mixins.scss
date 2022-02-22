@@ -1,0 +1,5 @@
+/*me permite agregar un parametro vacio al cual le voy a dar un valor en el futuro */
+
+@mixin colores ($color) {
+    background-color: $color;
+}

@@ -1,8 +1,10 @@
 /*Importar archivos parciales*/
 @import "./base/variables";
+@import "./base/extends";
+@import "./base/mixins";
+@import "./base/maps";
 @import "./components/header";
 @import "./components/footer";
-@import "./base/maps";
 @import "./components/contactanos";
 @import "./components/informacion";
 @import "./components/preguntas-frecuentes";
