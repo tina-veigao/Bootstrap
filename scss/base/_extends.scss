@@ -1,8 +1,10 @@
 /*$ Paquete de prop que se crean con un placeholder y las prop de css*/
 
-%centrar{
+%absolute{
+    color: $color-font-general;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 20%;
 }
 

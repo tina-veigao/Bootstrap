@@ -1,18 +1,15 @@
 @import "../base/variables";
+@import "../base/extends";
 
 .hero{
-    h1{
-        color: $color-font-general;
-        display: flex;
-        position: absolute;
-        top: 70%;
-        left: 20%;
+    video{
+        padding: 2%;
     }
+    h1{
+    @extend %absolute;
+    }
+
     h2{
-        color: $color-font-general;
-        display: flex;
-        position: absolute;
-        top: 70%;
-        left: 20%;
+    @extend %absolute;
     }
 }

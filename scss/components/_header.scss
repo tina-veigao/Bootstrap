@@ -1,10 +1,11 @@
 @import "../base/variables";
+@import "../base/maps";
 
 /*Nesting o anidamiento*/
 /*& pseudoclases o pseudoelementos*/
 header {
-  background-color: $bg-color-general;
-  color: $color-font-general;
+  background-color: map-get($header, bg-header);
+  color: map-get($header, color-header);
   line-height: $interlineado-body;
   .nav {
     .menu {

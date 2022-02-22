@@ -1,17 +1,23 @@
-@import "../base/extends";
 @import "../base/variables";
 
-.contacto{
-    div{
-        p{
-           line-height: $interlineado-info;
-           color: $color-font-secundario;
-        }
+.contacto {
+  div {
+    p {
+      line-height: $interlineado-info;
+      color: $color-font-secundario;
     }
+  }
 }
 
 @media only screen and (max-width: 480px) {
-    .boton-contacto{
-    @extend %centrar;
-    }
+  .informacion {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .boton-contacto {
+    text-align: center;
+  }
 }
