@@ -8,7 +8,10 @@ header {
   color: white;
   line-height: 20px;
 }
-header nav div a:hover {
+header .nav .menu .links {
+  color: white;
+}
+header .nav .menu .links:hover {
   text-decoration: underline;
 }
 
@@ -25,6 +28,12 @@ footer div p {
 }
 footer div ul {
   list-style-type: none;
+}
+@media only screen and (max-width: 480px) {
+  .imagen-logo {
+    display: flex;
+    justify-content: center;
+  }
 }
 /*$ Variables*/
 .contacto div p {

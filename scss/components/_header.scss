@@ -2,20 +2,20 @@
 
 /*Nesting o anidamiento*/
 /*& pseudoclases o pseudoelementos*/
-header{ 
-   background-color: $bg-color-general;
-    color: $color-font-general;  
-    line-height: $interlineado-body;
-    nav{
-        div{
-            a{
-                &:hover{
-                    text-decoration: underline;
-
-                }
-            }
+header {
+  background-color: $bg-color-general;
+  color: $color-font-general;
+  line-height: $interlineado-body;
+  .nav {
+    .menu {
+      .links {
+        color: $color-font-general;
+        &:hover {
+          text-decoration: underline;
         }
+      }
     }
+  }
 }
 
 /*Importo*/
