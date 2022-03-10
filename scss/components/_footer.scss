@@ -6,7 +6,7 @@
 footer{
     @include colores(#80CBC4);
     color: $color-font-general;
-    font-size: $font-size-footer; 
+    font-size: $font-size-footer;
     div{
         p{
             line-height: $interlineado-body;

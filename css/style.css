@@ -1,6 +1,13 @@
 /*Importar archivos parciales*/
 /*$ Variables*/
 /*$ Paquete de prop que se crean con un placeholder y las prop de css*/
+
+.whats:hover{
+  transform: scale(2);
+  transition-property: all;
+  transition-duration: 2s;
+}
+
 .hero h2, .hero h1 {
   color: white;
   display: flex;
@@ -50,7 +57,7 @@ footer div ul {
 }
 /*$ Variables*/
 .contacto div p {
-  line-height: 5px;
+  line-height: 10px;
   color: #1c313a;
 }
 
@@ -68,7 +75,7 @@ footer div ul {
 /*$ Variables*/
 .informacion div p {
   color: #1c313a;
-  line-height: 5px;
+  line-height: 10px;
 }
 
 /*$ Variables*/
@@ -76,6 +83,9 @@ footer div ul {
   background-color: #80CBC4;
 }
 .preguntas-frecuentes h2 {
+  color: white;
+}
+.preguntas-frecuentes div h3 {
   color: white;
 }
 .preguntas-frecuentes div p {
