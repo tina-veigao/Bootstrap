@@ -13,3 +13,14 @@
     @extend %absolute;
     }
 }
+
+.whats{
+    position: absolute;
+    top:300px;
+    right: 30px;
+}
+
+.whats:hover{
+    transform: scale(1.5);
+    transition-duration: 2s;
+}

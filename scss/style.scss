@@ -12,6 +12,16 @@
 @import "./components/sobre-nosotros";
 @import "./components/hero";
 
+.body{
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
 @media only screen and (orientation:landscape) {
     .body{
         display: flex;

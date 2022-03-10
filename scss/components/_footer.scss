@@ -7,6 +7,10 @@ footer{
     @include colores(#80CBC4);
     color: $color-font-general;
     font-size: $font-size-footer;
+    .bloque-contacto{
+        display: flex;
+        flex-direction: column;
+    }
     div{
         p{
             line-height: $interlineado-body;

@@ -1,13 +1,6 @@
 /*Importar archivos parciales*/
 /*$ Variables*/
 /*$ Paquete de prop que se crean con un placeholder y las prop de css*/
-
-.whats:hover{
-  transform: scale(2);
-  transition-property: all;
-  transition-duration: 2s;
-}
-
 .hero h2, .hero h1 {
   color: white;
   display: flex;
@@ -43,6 +36,10 @@ footer {
   color: white;
   font-size: 15px;
 }
+footer .bloque-contacto {
+  display: flex;
+  flex-direction: column;
+}
 footer div p {
   line-height: 20px;
 }
@@ -70,6 +67,7 @@ footer div ul {
 @media only screen and (max-width: 480px) {
   .boton-contacto {
     text-align: center;
+    padding: 20px;
   }
 }
 /*$ Variables*/
@@ -146,6 +144,26 @@ footer div ul {
 .hero video {
   padding: 2%;
 }
+.whats {
+  position: absolute;
+  top: 300px;
+  right: 30px;
+}
+
+.whats:hover {
+  transform: scale(1.5);
+  transition-duration: 2s;
+}
+
+.body {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 @media only screen and (orientation: landscape) {
   .body {
     display: flex;
