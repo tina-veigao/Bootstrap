@@ -14,11 +14,11 @@
     }
 }
 
-.whats{
-    position: absolute;
-    top:300px;
+.whats {
+    position: fixed;
+    top: 300px;
     right: 30px;
-}
+  }
 
 .whats:hover{
     transform: scale(1.5);

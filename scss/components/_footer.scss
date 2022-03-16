@@ -2,7 +2,7 @@
 @import "../base/variables";
 @import "../base/mixins";
 
-/*Nesting o anidamiento*/
+
 footer{
     @include colores(#80CBC4);
     color: $color-font-general;
@@ -32,3 +32,8 @@ footer{
         justify-content: center;
     }
 }
+
+.footer-contacto{
+    position: fixed;
+    bottom: 0px;
+  }

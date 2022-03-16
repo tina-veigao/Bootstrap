@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,6 @@
     <title>Home | Goodwood - juguetes de madera</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-
-    <!--Incluir un favicom-->
 
 <link rel="icon" href="multimedia/rocking-horse.png" type="juguete-madera">
 <meta name="description" content="Juguetes de madera, responsables con el medioambiente, de formas reconocibles, fáciles de manipular y trasladar.">
@@ -24,7 +22,7 @@
 
 <!--Header-->
 <header>
- <!--Etiqueta bootstrap nav-bar-->
+ <!--Nav-bar-->
           <nav class="navbar navbar-expand-lg navbar-light nav">
             <div class="container-fluid">
                  <div class="container">
@@ -58,7 +56,6 @@
             </div>
           </nav>
         
-    <!--Aqui-va-una-imagen-de-fondo-con-texto-->
     <div class="imagen-encabezado">
         <img src="multimedia/Encabezado.jpg" alt="Juguetes de madera" width="100%">
     </div>
@@ -66,11 +63,14 @@
 </header>
 <!--Fin-header-->
 
-    <!--Icono-de-whatsapp-que-se-desplaza-->
-    <div class="sticky-top whats d-lg-block d-none">
-      <a href="https://web.whatsapp.com/" target="_blank"><img src="multimedia/WP Call to action.png" alt="Contactanos por whatsapp"></a>
-      </div>
+  <!--Icono-de-whatsapp-que-se-desplaza-->
+  <div class="whats d-lg-block d-none">
+    <a href="https://web.whatsapp.com/" target="_blank">
+      <img src="multimedia/WP Call to action.png" alt="Contactanos por whatsapp"></a>
+  </div>
+  <!--Fin-icono-de-whatsapp-que-se-desplaza-->
 
+    <!--Main-->
     <main>
 
     <!--Hero-->
@@ -123,7 +123,6 @@
 
     <!--Sobre-nosotros-->
     <section id="sobre-nosotros" class="container-fluid bg-color-nav sobre-nosotros">
-        <!--Row-->
         <div class="row d-flex align-items-center">
         <h2 class="fw-bold col text-center">
         Sobre Nosotros
@@ -149,14 +148,12 @@
     <!--Fin-sobre-nosotros-->
 
     <!--Productos-->
-    <!--Grid-system-->
     <section id="productos" class="productos container">
         <h2 class="fw-bold p-5">
         Productos
         </h2>
-        <!--row-->
         <div class="row">
-        <!--col-->
+
         <div class="col-lg-6 col-sm-12">
             <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -195,7 +192,6 @@
         </ul>
         </div>
 
-        <!--col-->
         <div class="col-lg-6 col-sm-12">
             <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -232,9 +228,8 @@
         </div>
         </div>
 
-        <!--row-->
         <div class="row">
-        <!--col-->
+
         <div class="col-lg-6 col-sm-12">
             <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -270,7 +265,7 @@
             </li>
         </ul>
         </div>
-        <!--col-->
+
         <div class="col-lg-6 col-sm-12">
             <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -313,15 +308,15 @@
 
     <!--Preguntas-frecuentes-->
 
-    <section id="preguntas-frecuentes" class="container-fluid preguntas-frecuentes bg-color-nav d-flex align-items-center mt-5">
-    
-    <h2 class="text-center">
+    <section id="preguntas-frecuentes" class="container-fluid preguntas-frecuentes bg-color-nav mt-5">
+    <div class="row align-items-center">
+    <div class="col-12 col-md-2">
+    <h2 class="text-center p-5">
     Preguntas frecuentes
     </h2>
-
-    <!--row-->
-    <div class="row p-5 container-fluid">
-        <div class="col">
+  </div>
+ 
+    <div class="col-12 col-md-5">
         <h3>
         ¿Para que edad se recomienda Goodwood?
         </h3>
@@ -342,7 +337,7 @@
         </p>
     </div>
 
-    <div class="col">
+    <div class="col-12 col-md-5">
         <h3>
         ¿Cuánto tarda en llegar el pedido?
         </h3>
@@ -401,8 +396,6 @@
         <!--Fin-informacion-->
 
         <!--Contacto-->
-
-        <!--Grid system-->
         <section id="contacto" class="row container-fluid d-flex justify-content-center mt-5 contacto">
         <div class="col text-end d-lg-block d-none">
         <p class="informacion fw-bold"> 
@@ -413,7 +406,7 @@
         de formas reconocibles, fáciles de manipular y trasladar.
         </p>
         </div>
-        <!--Acá-va-un-botón-->
+
         <div class="col ml-5 pl-5 boton-contacto">
         <a class="btn btn-primary" href="pages/contacto.html" role="button">¡Contactanos!</a>
         </div>
@@ -421,12 +414,14 @@
 
         <!--Fin-contacto-->
         
-         <!--Acá-va-un-botón-->
+
          <div class="d-flex text-end m-5 d-lg-block d-none">
          <a class="boton-volver" href="index.html"><img src="multimedia/Group (1).jpg" alt="Volver al inicio"></a>
         </div>
-        <!--Fin-acá-va-un-botón-->
+
         </main>
+
+        <!--Fin-main-->
 
     <!--Footer-->
     <footer class="container-fluid">

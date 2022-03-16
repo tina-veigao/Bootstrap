@@ -1,4 +1,3 @@
-/*Importar archivos parciales*/
 /*$ Variables*/
 /*$ Paquete de prop que se crean con un placeholder y las prop de css*/
 .hero h2, .hero h1 {
@@ -13,8 +12,6 @@
 /*key + valor*/
 /*$ Variables*/
 /*key + valor*/
-/*Nesting o anidamiento*/
-/*& pseudoclases o pseudoelementos*/
 header {
   background-color: #80CBC4;
   color: white;
@@ -30,7 +27,6 @@ header .nav .menu .links:hover {
 /*Importo*/
 /*$ Variables*/
 /*me permite agregar un parametro vacio al cual le voy a dar un valor en el futuro */
-/*Nesting o anidamiento*/
 footer {
   background-color: #80CBC4;
   color: white;
@@ -52,6 +48,11 @@ footer div ul {
     justify-content: center;
   }
 }
+.footer-contacto {
+  position: fixed;
+  bottom: 0px;
+}
+
 /*$ Variables*/
 .contacto div p {
   line-height: 10px;
@@ -145,7 +146,7 @@ footer div ul {
   padding: 2%;
 }
 .whats {
-  position: absolute;
+  position: fixed;
   top: 300px;
   right: 30px;
 }
